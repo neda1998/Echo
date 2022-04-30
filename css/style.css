@@ -43,6 +43,7 @@
 }
 
 :root {
+
   --background-toolbar: #fff;
   --background-box: #fc8210;
   --shadow: rgba(150, 150, 150, 0.25);
@@ -545,7 +546,7 @@ h2 {
   color: #444;
   overflow-wrap: break-word;
   line-height: 2;
-  margin: 0 94px 50px 74px;
+  margin:0 28px 45px 28px;
 }
 
 .line {
@@ -557,21 +558,49 @@ h2 {
   position: relative;
 }
 
-.line-progress:after {
+.line-progress.html:after {
   content: "";
   position: absolute;
   background-color: var(--background-box);
-  width: 195px;
+  width: 550px;
   height: 15px;
   border-radius: 5px;
 }
 
-.line-progress:after:first-child {
-  width: 300px;
+.line-progress.css:after {
+  content: "";
+  position: absolute;
+  background-color: var(--background-box);
+  width: 350px;
+  height: 15px;
+  border-radius: 5px;
 }
 
-.line-progress:after:nth-child(2) {
+.line-progress.js:after {
+  content: "";
+  position: absolute;
+  background-color: var(--background-box);
   width: 250px;
+  height: 15px;
+  border-radius: 5px;
+}
+
+.line-progress.react:after {
+  content: "";
+  position: absolute;
+  background-color: var(--background-box);
+  width: 150px;
+  height: 15px;
+  border-radius: 5px;
+}
+
+.line-progress.php:after {
+  content: "";
+  position: absolute;
+  background-color: var(--background-box);
+  width: 50px;
+  height: 15px;
+  border-radius: 5px;
 }
 
 .big-box {
