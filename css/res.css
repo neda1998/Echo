@@ -1,0 +1,152 @@
+@media screen and (max-width:1224px) {
+  .rotate-img span{
+    left: 6px;
+    font-size: 19px;  }
+
+    .rotate-img img {
+      left: 64px;
+      width: 43px;
+    }
+
+    
+}
+
+@media screen and (max-width: 1200px) {
+  .nav {
+    display: none;
+  }
+
+  .list-icon {
+    display: block;
+  }
+
+  .btn-list {
+    position: fixed;
+    right: 69px;
+    top: 37px;color: #111;
+  }
+
+  .dot-vertical {
+    position: absolute;
+    left: 49px;
+    top: 20px;
+  }
+
+  .nav-mobile {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 104px;
+    background-color: var(--background-toolbar);
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: center;
+    transform: translateX(200px);
+    transition: transform 0.9s ease-in-out;
+  }
+
+  .nav-mobile.move {
+    transform: translateX(0);
+  }
+
+  .items-header-mobile svg {
+    color: var(--background-box);
+  }
+
+  .items-header-mobile {
+    margin: 19px 0;
+  }
+
+  .logo-mobile {
+    display: flex;
+    background-color: var(--background-toolbar);
+    box-shadow: 0 0 10px 0 var(--shadow);
+    border-radius: 10px;
+    position: fixed;
+    right: 17%;
+    justify-content: center;
+    width: 65%;
+    top: 2%;
+  }
+
+  .logo-txt {
+    padding: 7px 0;
+  }
+
+  .logo-txt > h1 {
+    color: #111;
+  }
+
+  .moon-small {
+    position: fixed;
+    top: 38px;
+    right: 27px;
+    opacity: 1;
+  }
+
+  #moon-small {
+    color: #111;
+  }
+
+  #hide-side {
+    color: #111;
+    transition: .4s ease-in-out;
+  }
+
+  #hide-side:hover {
+    color: var(--background-box);
+  }
+
+  .text-lorem {
+    margin-top: 0;
+  }
+
+  .img-girl {
+    display: flex;
+justify-content: center;
+  }
+
+  .txt-lorem h1 {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width:996px){
+  .before-txt {
+    padding-top: 51px;
+  }
+
+  .video video {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:990px){
+ .txt-progress {
+  margin-top: 80px;
+  padding-right: 10px;
+  width: 100%;
+ }
+
+ .line {
+   width: 100%;
+ }
+
+ .big-box {
+   margin-top: 53px;
+ }
+  
+}
+
+@media screen and (max-width:750px){
+  .img-boy {
+    display: none;
+  }
+}
+
+@media screen and (max-width:550px) {
+  .video video{
+    width: 100%;
+  }
+}
